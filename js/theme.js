@@ -1,6 +1,6 @@
 // Store the theme
-//let darkTheme = localStorage.getItem('darkTheme');
-let darkTheme = 'enabled'
+let darkTheme = localStorage.getItem('darkTheme');
+//let darkTheme = 'enabled'
 
 const themeToggle = document.querySelector('#themeButton');
 
